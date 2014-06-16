@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res" >
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/values/values.xml"
+                qualifiers="" >
+                <dimen name="empty_text_padding" >15dp
+                </dimen>
+                <dimen name="spinner_item_text" >18sp
+                </dimen>
+
+                <style name="ClickableToastAnimation" >
+                    <item name="@android:windowEnterAnimation">
+@anim/popup_show
+                    </item>
+                    <item name="@android:windowExitAnimation">
+@anim/popup_hide
+                    </item>
+                </style>
+
+                <dimen name="toast_offset" >30dp
+                </dimen>
+
+                <string-array name="months" >
+                    <item>
+Jan
+                    </item>
+                    <item>
+Feb
+                    </item>
+                    <item>
+Mar
+                    </item>
+                    <item>
+Apr
+                    </item>
+                    <item>
+May
+                    </item>
+                    <item>
+Jun
+                    </item>
+                    <item>
+Jul
+                    </item>
+                    <item>
+Aug
+                    </item>
+                    <item>
+Sep
+                    </item>
+                    <item>
+Oct
+                    </item>
+                    <item>
+Nov
+                    </item>
+                    <item>
+Dec
+                    </item>
+                </string-array>
+
+                <string name="loading" >Loading…
+                </string>
+            </file>
+            <file
+                name="dialog_listitem_checkbox"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/dialog_listitem_checkbox.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_listitem"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/dialog_listitem.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item_dropdown"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/spinner_item_dropdown.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_input"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/dialog_input.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_listitem_radio"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/dialog_listitem_radio.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_list"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/fragment_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_list"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/dialog_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="clickable_toast"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/clickable_toast.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/spinner_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_layout"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/dialog_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="silk_date_picker"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/layout/silk_date_picker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="popup_show"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/anim/popup_show.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="popup_hide"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/anim/popup_hide.xml"
+                qualifiers=""
+                type="anim" />
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res" >
+            <file
+                name="card_selector_dark"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/card_selector_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="card_header_selector"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/card_header_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="card_selector"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/card_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="unpressed_background"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/unpressed_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="blank_selector"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/blank_selector.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="unpressed_background_dark"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/unpressed_background_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="card_header_selector_dark"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/card_header_selector_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pressed_background"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/pressed_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="blank_drawable"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/blank_drawable.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pressed_background_header"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/pressed_background_header.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pressed_background_dark"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/pressed_background_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="card_menu_button"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/card_menu_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pressed_background_header_dark"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/pressed_background_header_dark.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="list_focused"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-xhdpi/list_focused.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_normal"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-xhdpi/ic_overflow_normal.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_pressed"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-xhdpi/ic_overflow_pressed.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="list_focused"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-hdpi/list_focused.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_normal"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-hdpi/ic_overflow_normal.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_pressed"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-hdpi/ic_overflow_pressed.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="list_focused"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-mdpi/list_focused.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_normal"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-mdpi/ic_overflow_normal.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_pressed"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-mdpi/ic_overflow_pressed.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="card_header_title" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textSize">
+@dimen/card_header
+                    </item>
+                    <item name="android:textColor">
+@android:color/black
+                    </item>
+                    <item name="android:layout_gravity">
+center_vertical
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                </style>
+
+                <style name="card_outer_frame" >
+                    <item name="android:orientation">
+vertical
+                    </item>
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:descendantFocusability">
+blocksDescendants
+                    </item>
+                </style>
+
+                <style name="card_thumbnail" >
+                    <item name="android:layout_width">
+@dimen/card_thumbnail
+                    </item>
+                    <item name="android:layout_height">
+@dimen/card_thumbnail
+                    </item>
+                    <item name="android:scaleType">
+centerCrop
+                    </item>
+                    <item name="android:layout_marginRight">
+@dimen/card_thumbnail_margin
+                    </item>
+                </style>
+
+                <style name="header_button" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textAllCaps">
+true
+                    </item>
+                    <item name="android:textSize">
+@dimen/card_header_button_text
+                    </item>
+                    <item name="android:textColor">
+@android:color/white
+                    </item>
+                    <item name="android:text">
+@string/see_more
+                    </item>
+                    <item name="android:layout_alignParentRight">
+true
+                    </item>
+                    <item name="android:background">
+@color/header_button_default
+                    </item>
+                    <item name="android:layout_marginLeft">
+@dimen/card_header_button_margin_left
+                    </item>
+                    <item name="android:paddingLeft">
+@dimen/card_header_button_padding_side
+                    </item>
+                    <item name="android:paddingRight">
+@dimen/card_header_button_padding_side
+                    </item>
+                    <item name="android:paddingTop">
+@dimen/card_header_button_padding_top
+                    </item>
+                    <item name="android:paddingBottom">
+@dimen/card_header_button_padding_top
+                    </item>
+                    <item name="android:layout_centerVertical">
+true
+                    </item>
+                    <item name="android:layout_marginTop">
+@dimen/card_header_padding_top
+                    </item>
+                </style>
+
+                <style name="card_header_summary" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textSize">
+@dimen/card_subheader
+                    </item>
+                    <item name="android:visibility">
+gone
+                    </item>
+                    <item name="android:layout_gravity">
+center_vertical
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                    <item name="android:layout_marginTop">
+-3dp
+                    </item>
+                </style>
+
+                <style name="card_header_outer" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:paddingLeft">
+@dimen/card_header_padding_horizontal
+                    </item>
+                    <item name="android:paddingRight">
+@dimen/card_header_padding_horizontal
+                    </item>
+                    <item name="android:descendantFocusability">
+blocksDescendants
+                    </item>
+                    <item name="android:background">
+@drawable/card_header_selector
+                    </item>
+                </style>
+
+                <style name="card_header_inner" >
+                    <item name="android:orientation">
+vertical
+                    </item>
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_alignParentLeft">
+true
+                    </item>
+                    <item name="android:layout_toLeftOf">
+@android:id/button1
+                    </item>
+                    <item name="android:layout_marginTop">
+@dimen/card_header_padding_top
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <item name="android:layout_centerVertical">
+true
+                    </item>
+                </style>
+
+                <style name="card_content" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textSize">
+@dimen/card_content
+                    </item>
+                    <item name="android:layout_below">
+@+id/titleFrame
+                    </item>
+                    <item name="android:layout_toRightOf">
+@android:id/icon
+                    </item>
+                    <item name="android:layout_marginTop">
+@dimen/card_content_margin_top
+                    </item>
+                    <item name="android:layout_marginLeft">
+@dimen/card_title_margin_sides
+                    </item>
+                    <item name="android:layout_marginRight">
+@dimen/card_title_margin_sides
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                </style>
+
+                <style name="card_title" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textSize">
+@dimen/card_title
+                    </item>
+                    <item name="android:layout_alignParentLeft">
+true
+                    </item>
+                    <item name="android:layout_toLeftOf">
+@android:id/button1
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                    <item name="android:layout_centerVertical">
+true
+                    </item>
+                </style>
+
+                <style name="card_inner_frame" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+match_parent
+                    </item>
+                    <item name="android:layout_marginLeft">
+@dimen/card_margin_horizontal
+                    </item>
+                    <item name="android:layout_marginRight">
+@dimen/card_margin_horizontal
+                    </item>
+                    <item name="android:layout_marginTop">
+@dimen/card_margin_vertical
+                    </item>
+                    <item name="android:layout_marginBottom">
+@dimen/card_margin_vertical
+                    </item>
+                    <item name="android:background">
+@drawable/card_selector
+                    </item>
+                    <item name="android:paddingTop">
+@dimen/card_padding_vertical
+                    </item>
+                    <item name="android:paddingBottom">
+@dimen/card_padding_vertical
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                </style>
+
+                <style
+                    name="card_title_compressed"
+                    parent="@style/card_title" >
+                    <item name="android:layout_marginLeft">
+@dimen/card_title_margin_sides
+                    </item>
+                    <item name="android:layout_marginTop">
+@dimen/card_padding_vertical_taller
+                    </item>
+                    <item name="android:layout_marginBottom">
+@dimen/card_padding_vertical_taller
+                    </item>
+                </style>
+
+                <style name="card_title_frame" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:orientation">
+horizontal
+                    </item>
+                    <item name="android:layout_marginLeft">
+@dimen/card_title_margin_sides
+                    </item>
+                    <item name="android:layout_toRightOf">
+@android:id/icon
+                    </item>
+                </style>
+
+                <style name="card_popup_anchor" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_alignParentRight">
+true
+                    </item>
+                    <item name="android:src">
+@drawable/card_menu_button
+                    </item>
+                    <item name="android:layout_marginLeft">
+10dp
+                    </item>
+                    <item name="android:focusable">
+false
+                    </item>
+                    <item name="android:focusableInTouchMode">
+false
+                    </item>
+                    <item name="android:clickable">
+true
+                    </item>
+                    <item name="android:background">
+@android:color/transparent
+                    </item>
+                    <item name="android:layout_centerVertical">
+true
+                    </item>
+                    <item name="android:scaleType">
+fitXY
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="darktheme_subtitle" >#3A3A3A
+                </color>
+                <color name="card_subtitle" >#303030
+                </color>
+                <color name="header_button_default" >#494949
+                </color>
+                <color name="card_pressed" >#ebebeb
+                </color>
+                <color name="card_gray" >#e5e5e5
+                </color>
+                <color name="card_pressed_header_dark" >#5F5F5F
+                </color>
+                <color name="card_pressed_dark" >#3F3F3F
+                </color>
+                <color name="darktheme_background" >#434341
+                </color>
+                <color name="darktheme_card" >#212121
+                </color>
+                <color name="card_pressed_header" >#d6d6d6
+                </color>
+                <color name="darktheme_text" >#C0C0C0
+                </color>
+            </file>
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="card_header_padding_top" >30dp
+                </dimen>
+                <dimen name="card_title" >18sp
+                </dimen>
+                <dimen name="card_header" >21sp
+                </dimen>
+                <dimen name="card_header_button_margin_left" >10dp
+                </dimen>
+                <dimen name="card_margin_vertical" >2dp
+                </dimen>
+                <dimen name="card_title_margin_sides" >5dp
+                </dimen>
+                <dimen name="card_header_padding_horizontal" >20dp
+                </dimen>
+                <dimen name="card_thumbnail_margin_top" >3dp
+                </dimen>
+                <dimen name="card_header_button_padding_top" >5dp
+                </dimen>
+                <dimen name="card_thumbnail" >56dp
+                </dimen>
+                <dimen name="card_padding_vertical_taller" >7dp
+                </dimen>
+                <dimen name="card_header_button_padding_side" >8dp
+                </dimen>
+                <dimen name="card_header_button_text" >13sp
+                </dimen>
+                <dimen name="card_content" >16sp
+                </dimen>
+                <dimen name="card_padding_vertical" >10dp
+                </dimen>
+                <dimen name="card_margin_horizontal" >6dp
+                </dimen>
+                <dimen name="card_content_margin_top" >3dp
+                </dimen>
+                <dimen name="card_thumbnail_margin" >5dp
+                </dimen>
+                <dimen name="card_action_touchdelegate" >25dp
+                </dimen>
+                <dimen name="card_subheader" >15sp
+                </dimen>
+            </file>
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="see_more" >See More
+                </string>
+            </file>
+            <file
+                name="list_item_card"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/layout/list_item_card.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_header"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/layout/list_item_header.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_header_centered"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/layout/list_item_header_centered.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_card_compressed"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/layout/list_item_card_compressed.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_card_nocontent"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/layout/list_item_card_nocontent.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_overflow_normal"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-xxhdpi/ic_overflow_normal.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_overflow_pressed"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable-xxhdpi/ic_overflow_pressed.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+        </source>
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/library/build/generated/res/rs/release" />
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/library/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/library/src/release/res" />
+    </dataSet>
+
+</merger>

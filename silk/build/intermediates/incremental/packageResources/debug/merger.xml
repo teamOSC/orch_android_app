@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res" >
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="ClickableToastAnimation" >
+                    <item name="@android:windowEnterAnimation">
+@anim/popup_show
+                    </item>
+                    <item name="@android:windowExitAnimation">
+@anim/popup_hide
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="empty_text_padding" >15dp
+                </dimen>
+                <dimen name="spinner_item_text" >18sp
+                </dimen>
+                <dimen name="toast_offset" >30dp
+                </dimen>
+            </file>
+            <file
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string-array name="months" >
+                    <item>
+Jan
+                    </item>
+                    <item>
+Feb
+                    </item>
+                    <item>
+Mar
+                    </item>
+                    <item>
+Apr
+                    </item>
+                    <item>
+May
+                    </item>
+                    <item>
+Jun
+                    </item>
+                    <item>
+Jul
+                    </item>
+                    <item>
+Aug
+                    </item>
+                    <item>
+Sep
+                    </item>
+                    <item>
+Oct
+                    </item>
+                    <item>
+Nov
+                    </item>
+                    <item>
+Dec
+                    </item>
+                </string-array>
+
+                <string name="loading" >Loading…
+                </string>
+            </file>
+            <file
+                name="dialog_listitem_checkbox"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/dialog_listitem_checkbox.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_listitem"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/dialog_listitem.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item_dropdown"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/spinner_item_dropdown.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_input"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/dialog_input.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_listitem_radio"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/dialog_listitem_radio.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_list"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/fragment_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_list"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/dialog_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="clickable_toast"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/clickable_toast.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="spinner_item"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/spinner_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_layout"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/dialog_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="silk_date_picker"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/layout/silk_date_picker.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="popup_show"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/anim/popup_show.xml"
+                qualifiers=""
+                type="anim" />
+            <file
+                name="popup_hide"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/res/anim/popup_hide.xml"
+                qualifiers=""
+                type="anim" />
+        </source>
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/silk/build/generated/res/rs/debug" />
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/silk/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/debug/res" />
+    </dataSet>
+
+</merger>

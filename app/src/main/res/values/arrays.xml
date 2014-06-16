@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>gifs</item>
+        <item>funny</item>
+        <item>videos</item>
+    </string-array>
+</resources>

@@ -24,8 +24,9 @@ public class MainActivity extends Activity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-    }
 
+        checkCachedData();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -59,6 +60,14 @@ public class MainActivity extends Activity {
                 Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             return rootView;
+        }
+    }
+
+    private void checkCachedData() {
+        String[] categories = getResources().getStringArray(R.array.category_array);
+
+        for(String category : categories) {
+            new UpdateData(this, false, category).execute();
         }
     }
 }

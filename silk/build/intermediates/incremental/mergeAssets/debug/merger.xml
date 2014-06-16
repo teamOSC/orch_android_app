@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/assets" >
+            <file
+                name="Roboto-LightItalic.ttf"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/assets/Roboto-LightItalic.ttf" />
+            <file
+                name="Roboto-Light.ttf"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/assets/Roboto-Light.ttf" />
+            <file
+                name="Roboto-Bold.ttf"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/assets/Roboto-Bold.ttf" />
+            <file
+                name="Roboto-Condensed.ttf"
+                path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/main/assets/Roboto-Condensed.ttf" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/omerjerk/AndroidStudioProjects/Orch/silk/src/debug/assets" />
+    </dataSet>
+
+</merger>
