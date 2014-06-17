@@ -1,0 +1,27 @@
+apply plugin: 'android-library'
+
+dependencies {
+    compile project(':silk')
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 19
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+    productFlavors {
+    }
+    buildTypes {
+    }
+}
+
+//apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'

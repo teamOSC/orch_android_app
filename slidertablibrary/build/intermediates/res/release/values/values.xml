@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <!-- From: file:/home/omerjerk/AndroidStudioProjects/Orch/slidertablibrary/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <!-- From: file:/home/omerjerk/AndroidStudioProjects/Orch/slidertablibrary/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    <!-- From: file:/home/omerjerk/AndroidStudioProjects/Orch/build/intermediates/exploded-aar/Orch/silk/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="empty_text_padding">15dp</dimen>
+    <dimen name="spinner_item_text">18sp</dimen>
+    <dimen name="toast_offset">30dp</dimen>
+
+    <string name="loading">Loading…</string>
+
+    <style name="ClickableToastAnimation">
+        <item name="@android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="@android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+</resources>

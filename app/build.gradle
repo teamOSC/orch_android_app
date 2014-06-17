@@ -24,4 +24,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':library')
     compile project(':silk')
+    compile project(':slidertablibrary')
 }
