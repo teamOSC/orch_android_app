@@ -66,7 +66,7 @@ public class MainFragment extends Fragment {
 
         @Override
         public Fragment getItem(int position) {
-            return new CategoryFragment();
+            return new CategoryFragment(categories[position]);
         }
 
     }

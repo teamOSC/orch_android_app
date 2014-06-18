@@ -62,7 +62,9 @@
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="httpclientandroidlib-1.1.2" level="project" />
+    <orderEntry type="library" exported="" name="androidasync-1.2.6" level="project" />
     <orderEntry type="library" exported="" name="android-support-v13" level="project" />
+    <orderEntry type="library" exported="" name="ion-1.2.7" level="project" />
     <orderEntry type="module" module-name="library" exported="" />
     <orderEntry type="module" module-name="silk" exported="" />
     <orderEntry type="module" module-name="slidertablibrary" exported="" />
