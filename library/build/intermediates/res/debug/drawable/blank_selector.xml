@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/blank_drawable"/>
-
-</selector><!-- From: file:/home/omerjerk/AndroidStudioProjects/Orch/library/src/main/res/drawable/blank_selector.xml -->
