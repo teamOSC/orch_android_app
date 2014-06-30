@@ -3,3 +3,6 @@ local.properties
 .idea/*
 .DS_Store
 build/*
+library/build/
+silk/build/
+slidertablibrary/build/
