@@ -63,9 +63,15 @@ public class CategoryFragment extends Fragment {
                 BufferedReader br = new BufferedReader(new FileReader(cacheFile));
                 jsonString = br.readLine();
 
-            } catch (IOException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
-
+                new UpdateData(mContext, false, category){
+                    @Override
+                    protected void onPostExecute(String string) {
+                        super.onPostExecute(string);
+                        new ReadFromJson().execute();
+                    }
+                }.execute();
             }
 
             JSONArray jsonArray = null;
